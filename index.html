@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>RAR to 7zip</title>
+	<link rel="stylesheet" href="style.css" /> </head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" >
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Dropdown
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item" href="#">Action</a></li>
+				  <li><a class="dropdown-item" href="#">Another action</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Something else here</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			  </li>
+			</ul>
+			<form class="d-flex">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+		  </div>
+		</div>
+	  </nav>
+	<div id="dvTitle" class="container-main blue">
+		
+		<div id="dvTitle" class="container blue">
+			
+			<h1 id="ProductTitle">RAR to 7zip</h1>
+	</div>
+	<div id="WorkPlaceHolder" class="container-main blue" style="justify-content:start">
+		<form id="UploadFile" name="UploadFile" method="POST" enctype="multipart/form-data" style="width: 100%;">
+			<p id="idFile" hidden>1918595201</p>
+			<div id="filesUploadBlock" style="display:flex; flex-direction:row; flex-wrap:wrap;justify-content:center;">
+				<div class="filedrop-container width-for-mobile">
+					<div class="filedrop filedrop-mvc fileplacement width-for-mobile" id="filedrop-1918595201" >
+						<i class="fa fa-upload" aria-hidden="true"></i>
+						<div>
+							<label for="UploadFileInput-1918595201" style="margin: 50px 0px 0 5px;">Drop or upload your files*</label>
+							<input type="file" id="UploadFileInput-1918595201" name="UploadFileInput-1918595201" title="Conversion .rar" accept=".rar" multiple /> </div>
+					</div>
+					<div id="filedrop-input-url" class="fileupload file-upload-input-container" style="display:none"> <span class="filename">
+                                <input type="text" id="externalUrlInput" class="form-control externalUrlInput" name="externalUrlInput" placeholder="Enter file URL (with http://, https://)">
+                                <span class="fileLinkHolder">
+                                    <a class="file-link-holder-add">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-check fa-w-16 fa-2x"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" class=""></path></svg>
+                                    </a>
+                                    <a class="file-link-holder-cancel">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" class="svg-inline--fa fa-times fa-w-11 fa-2x"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg>
+                                    </a>
+                                </span> </span>
+					</div>
+				
+				</div>
+			</div>
+			<div id="controlsView">
+				<div id="conversionControls" style="display: none">
+					<p>Format</p>
+					<div style="display: inline-block;">
+						<div style="display: inline-block; text-align: start;">
+							<input type="radio" name="xmlType" id="format-radio1" value="1" style="float: left;" checked />
+							<label for="format-radio1">APS</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="dcvDefaultControls"> </div>
+			<div class="convertbtn btn-group">
+				<label class="label-btn-group" for="saveAs">Save as</label>
+				<select id="saveAs" class="dropdowns" name="saveAs" onchange="">
+					<option value="7Z">7Z</option>
+					<option value="ZIP">RAR</option>
+				</select>
+				<input ID="uploadButton" type="button" class="btn" value="CONVERT" /> </div>
+	</div>
+	<div id="DownloadPlaceHolder" class="container-main blue hidden" style="justify-content:start">
+		<div class="filesuccess">
+			<label id="SuccessMessage">Your files have been Download successfully</label>
+			<div id="DownloadContainer">
+				<div id="DownloadBtn" class="convertbtn"> <a rel="nofollow" href="#" id="DownloadButton" class="btn download-button" target="_blank" download>
+                    DOWNLOAD&nbsp;
+                    <svg class="icon icon-download frame0-1" viewBox="0 -5 30 32"><path d="M22.857 24q0-0.464-0.339-0.804t-0.804-0.339-0.804 0.339-0.339 0.804 0.339 0.804 0.804 0.339 0.804-0.339 0.339-0.804zM27.429 24q0-0.464-0.339-0.804t-0.804-0.339-0.804 0.339-0.339 0.804 0.339 0.804 0.804 0.339 0.804-0.339 0.339-0.804zM29.714 20v5.714q0 0.714-0.5 1.214t-1.214 0.5h-26.286q-0.714 0-1.214-0.5t-0.5-1.214v-5.714q0-0.714 0.5-1.214t1.214-0.5h8.304l2.411 2.429q1.036 1 2.429 1t2.429-1l2.429-2.429h8.286q0.714 0 1.214 0.5t0.5 1.214zM23.911 9.839q0.304 0.732-0.25 1.25l-8 8q-0.321 0.339-0.804 0.339t-0.804-0.339l-8-8q-0.554-0.518-0.25-1.25 0.304-0.696 1.054-0.696h4.571v-8q0-0.464 0.339-0.804t0.804-0.339h4.571q0.464 0 0.804 0.339t0.339 0.804v8h4.571q0.75 0 1.054 0.696z"></path></svg>
+                </a>
+					<div>
+						<a class="immediatelyRemove" href="#" title="Use for immediately remove your files, results and email link stored for 24 hours by default.">
+							d<i class=" fa-solid fa-trash-can-check"></i>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div>  </div>
+		</div>
+	</div>
+	
+	<div id="loaderPlaceHolder" class="container-main blue">
+		<div id="processing" class="loading hidden">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+		<div id="loader" class="hidden" role="status" aria-hidden="true">
+			<div class="progress" style="max-width: 800px;">
+				<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 15%">15%</div>
+			</div>
+		</div>
+	</div>
+
+	<script preload src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script defer src="index.js"></script>
+	<script type="text/javascript">
+	function requestConversion() {
+		let data = fileDrop.prepareFormData();
+		if(data === null) return;
+		o.backendUrl = o.NatsAPIPath;
+		let url = o.NatsAPIPath + 'convert?inputType=' + getInputType('conversion') + '&outputType=' + $('#saveAs :selected').text() + '&xmlType=' + $('input[name=xmlType]:checked').val();
+		requestQueue(url, data);
+	}
+
+	function isArchiveType(inputType) {
+		return inputType === 'ZIP' || inputType === 'RAR' || inputType === '7Z' || inputType === 'TAR' || inputType === 'BZ2' || inputType === 'GZ';
+	}
+	var o = {
+		"MaximumUploadFileSize": 31457280,
+		"FileMaximumUploadSizeReachedMessage": "Files upload size must be equal or less than 31457280 bytes. To remove limitation of direct upload you can Enter Url from google drive, dropbox or from public web.",
+		"AppURL": "http://127.0.0.1:5500/rar.html",
+		"AppName": "conversion",
+		"OriginalAppName": "Conversion",
+		"AppRoute": "/pdf/conversion/rar-to-7z",
+		// "APIBasePath": "/pdf/apps-ui/api/",
+		"NatsAPIPath": "https://pdf-web-api-dq5ga3f5.conholdate.cloud/pdf/api/",
+		"UIBasePath": "",
+		"ViewerPathWF": "/pdf/viewer/",
+		"ViewerPath": "/pdf/viewer/ViewPdf?",
+		"EditorPathWF": "/pdf/editor/",
+		// "EditorPath": "/pdf/editor/EditPdf?",
+		"FileSelectMessage": "Please select a file to upload",
+		"ShowViewerButton": true,
+		"MaximumUploadFiles": 10,
+		"FileAmountMessage": "Please select less than ten files",
+		"UploadAndRedirect": false,
+		"UseSorting": true,
+		"FileWrongTypeMessage": "You are trying to upload document(s) of unsupported type:",
+		"CurrentAppLang": "en",
+		"AllSupportedLang": [{
+			"Id": "en",
+			"Description": "English",
+			"ChangeToLanguage": "Change to English?",
+			"UrlId": ""
+		}, 
+	    ],
+		"UploadOptions": ["RAR"],
+		"Multiple": true,
+		"DropFilesPrompt": "Drop or upload your files*",
+		"Accept": ".rar"
+	};
+	$.extend(o, {
+		Method: requestConversion
+	});
+	window.onload = (function() {
+		$('#saveAs').on('change', function() {
+			switchControls();
+		});
+
+		function switchControls() {
+			var inputType = getInputType('conversion').toUpperCase();
+			if($('#saveAs :selected').text() === 'XML' && !isArchiveType(inputType)) {
+				$('#conversionControls').css('display', 'block');
+			} else {
+				$('#conversionControls').css('display', 'none');
+			}
+		}
+		switchControls();
+	});
+	</script>
+	
+</body>
+
+</html>
